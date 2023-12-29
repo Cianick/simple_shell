@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-/* This function prints a simple message to demonstrate functionality */
+/**
+ * main - Entry point of the program
+ *
+ * Description: This program prints a sentence to the console.
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-    int i = 42;
-
-    printf("The value of i is: %d\n", i);
-
-    return (0);  // Indicate successful program termination
+        printf("with proper grammar, but the outcome is a piece of art,\n");
+        return (0);
 }
 
